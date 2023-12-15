@@ -140,8 +140,8 @@
             // 
             this.genderCB.FormattingEnabled = true;
             this.genderCB.Items.AddRange(new object[] {
-            "MALE",
-            "FEMALE"});
+            "Male",
+            "Female"});
             this.genderCB.Location = new System.Drawing.Point(49, 314);
             this.genderCB.Margin = new System.Windows.Forms.Padding(2);
             this.genderCB.Name = "genderCB";
@@ -152,10 +152,9 @@
             // 
             this.programCB.FormattingEnabled = true;
             this.programCB.Items.AddRange(new object[] {
-            "BSIT",
-            "BSCS",
-            "BSIS",
-            "IT"});
+            "BS in Information Technology",
+            "BS in Computer Science",
+            "BS in Information System"});
             this.programCB.Location = new System.Drawing.Point(49, 361);
             this.programCB.Margin = new System.Windows.Forms.Padding(2);
             this.programCB.Name = "programCB";

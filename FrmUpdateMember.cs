@@ -47,10 +47,7 @@ namespace Laboratory_Excerise_SQL
 
         private void FrmUpdateMember_Load(object sender, EventArgs e)
         {
-            sqlCon = $@"Data Source=(LocalDB)\MSSQLLocalDB
-            AttachDbFilename={System.Environment.CurrentDirectory}\ClubDBB.MDF;
-            Initial Catalog = ClubDBB;
-            Integrated Security=True";
+            sqlCon = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Lester\source\repos\Laboratory-Excerise SQL\ClubDBB.mdf"";Integrated Security=True";
             con = new SqlConnection(sqlCon);
 
             String query = "SELECT * FROM ClubMembers";

@@ -54,7 +54,7 @@
             // refreshBtn
             // 
             this.refreshBtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.refreshBtn.Location = new System.Drawing.Point(587, 218);
+            this.refreshBtn.Location = new System.Drawing.Point(655, 218);
             this.refreshBtn.Margin = new System.Windows.Forms.Padding(2);
             this.refreshBtn.Name = "refreshBtn";
             this.refreshBtn.Size = new System.Drawing.Size(90, 48);
@@ -66,7 +66,7 @@
             // updateBtn
             // 
             this.updateBtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.updateBtn.Location = new System.Drawing.Point(587, 127);
+            this.updateBtn.Location = new System.Drawing.Point(655, 128);
             this.updateBtn.Margin = new System.Windows.Forms.Padding(2);
             this.updateBtn.Name = "updateBtn";
             this.updateBtn.Size = new System.Drawing.Size(90, 48);
@@ -77,6 +77,7 @@
             // 
             // clubMemberGrid
             // 
+            this.clubMemberGrid.BackgroundColor = System.Drawing.SystemColors.ButtonFace;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -91,13 +92,13 @@
             this.clubMemberGrid.Name = "clubMemberGrid";
             this.clubMemberGrid.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.clubMemberGrid.RowTemplate.Height = 24;
-            this.clubMemberGrid.Size = new System.Drawing.Size(498, 145);
+            this.clubMemberGrid.Size = new System.Drawing.Size(603, 145);
             this.clubMemberGrid.TabIndex = 37;
             // 
             // registerBtn
             // 
             this.registerBtn.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.registerBtn.Location = new System.Drawing.Point(587, 52);
+            this.registerBtn.Location = new System.Drawing.Point(655, 52);
             this.registerBtn.Margin = new System.Windows.Forms.Padding(2);
             this.registerBtn.Name = "registerBtn";
             this.registerBtn.Size = new System.Drawing.Size(90, 48);
@@ -190,8 +191,8 @@
             // 
             this.genderCB.FormattingEnabled = true;
             this.genderCB.Items.AddRange(new object[] {
-            "MALE",
-            "FEMALE"});
+            "Male",
+            "Female"});
             this.genderCB.Location = new System.Drawing.Point(238, 160);
             this.genderCB.Margin = new System.Windows.Forms.Padding(2);
             this.genderCB.Name = "genderCB";
@@ -202,10 +203,9 @@
             // 
             this.programCB.FormattingEnabled = true;
             this.programCB.Items.AddRange(new object[] {
-            "BSIT",
-            "BSCS",
-            "BSIS",
-            "IT"});
+            "BS in Information Technology",
+            "BS in Computer Science",
+            "BS in Information System"});
             this.programCB.Location = new System.Drawing.Point(400, 59);
             this.programCB.Margin = new System.Windows.Forms.Padding(2);
             this.programCB.Name = "programCB";
@@ -257,7 +257,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(716, 396);
+            this.ClientSize = new System.Drawing.Size(756, 396);
             this.Controls.Add(this.refreshBtn);
             this.Controls.Add(this.updateBtn);
             this.Controls.Add(this.clubMemberGrid);

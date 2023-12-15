@@ -26,10 +26,7 @@ namespace Laboratory_Excerise_SQL
 
         public ClubRegistrationQuery()
         {
-            connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB
-            AttachDbFilename={System.Environment.CurrentDirectory}\CLUBDBB.MDF;
-            Inni
-            Integrated Security=True;Connect Timeout=30";
+            connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=""C:\Users\Lester\source\repos\Laboratory-Excerise SQL\ClubDBB.mdf"";Integrated Security=True";
             sqlConnect = new SqlConnection(connectionString);
             dataTable = new DataTable();
             bindingSource = new BindingSource();
